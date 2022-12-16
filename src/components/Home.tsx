@@ -35,7 +35,7 @@ const Home = () => {
 			>
 				<Heading className="logo">strive</Heading>
 
-				<Flex alignItems="center" gap="3v0px">
+				<Flex alignItems="center" gap="30px">
 					<Text>Home</Text>
 					<Text>About</Text>
 					<Link to="/dnd">
