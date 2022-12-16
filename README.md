@@ -1,4 +1,4 @@
-# Project management tool system (pmts)
+# Project management tool system  - Strive
 
 # HBTN Portfolio project
 
