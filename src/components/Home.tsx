@@ -13,6 +13,7 @@ import {
 import Nav from "./LandingPageComponents/Nav";
 // import Nav from "../components/Nav";
 import Snippet from "../assets/appSnippet.png";
+import { Link } from "react-router-dom";
 import "../App.css";
 // import HeroSection from "./LandingPageComponents/HeroSection";
 // import HeroSection from "./LandingPageComponents/HeroSection";
@@ -37,14 +38,16 @@ const Home = () => {
 				<Flex alignItems="center" gap="3v0px">
 					<Text>Home</Text>
 					<Text>About</Text>
-					<Button
-						bg="none"
-						color="yellow.300"
-						border="1px"
-						borderColor="yellow.300"
-					>
-						Get Started
-					</Button>
+					<Link to="/dnd">
+						<Button
+							bg="none"
+							color="yellow.300"
+							border="1px"
+							borderColor="yellow.300"
+						>
+							Get Started
+						</Button>
+					</Link>
 				</Flex>
 			</Flex>
 			{/* main section */}
