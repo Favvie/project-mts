@@ -10,15 +10,9 @@ import {
 	VStack,
 	Center,
 } from "@chakra-ui/react";
-import Nav from "./LandingPageComponents/Nav";
-// import Nav from "../components/Nav";
 import Snippet from "../assets/appSnippet.png";
 import { Link } from "react-router-dom";
 import "../App.css";
-// import HeroSection from "./LandingPageComponents/HeroSection";
-// import HeroSection from "./LandingPageComponents/HeroSection";
-// import ServicesSection from "./LandingPageComponents/ServicesSection";
-// import Footer from "./LandingPageComponents/Footer";
 
 const Home = () => {
 	return (
@@ -36,8 +30,8 @@ const Home = () => {
 				<Heading className="logo">strive</Heading>
 
 				<Flex alignItems="center" gap="30px">
-					<Text>Home</Text>
-					<Text>About</Text>
+					<Link to="/">Home</Link>
+					<Link to="/">About</Link>
 					<Link to="/dnd">
 						<Button
 							bg="none"
@@ -58,7 +52,7 @@ const Home = () => {
 					gap="30px"
 					direction={["column", "row"]}
 					mt={["50px", "135px"]}
-					// bgGradient="linear(to-r, green.200, pink.500)"
+					bgGradient="linear(to-r, green.200, pink.500)"
 				>
 					<VStack spacing="40px" flex="1" w="100%">
 						<Heading as="h1" fontSize={["40px", "55px"]} mt="10px">
@@ -75,6 +69,7 @@ const Home = () => {
 							high rises to the home office, the way your team work is unique -
 							accomplish it all with Strive
 						</Text>
+
 						<Button
 							// bg="none"
 							// color="yellow.300"
@@ -129,13 +124,6 @@ const Home = () => {
 								task to responsible parties.{" "}
 							</Text>
 						</Box>
-						{/* <Box>
-							<Box bg="yellow.300" w="40px" h="5px"></Box>
-						</Box>
-						<Box>
-							<Text>Peak performance</Text>
-							<Box bg="yellow.300" w="40px" h="5px"></Box>
-						</Box> */}
 					</Flex>
 				</Box>
 			</Box>
@@ -153,14 +141,6 @@ const Home = () => {
 					Made by Strive
 				</Flex>
 			</Center>
-
-			{/* <Nav /> */}
-			{/* <Box paddingInline={["5%", "130px"]} maxW="1600px" m="auto"> */}
-			{/* hero section */}
-			{/* <HeroSection /> */}
-			{/* <ServicesSection /> */}
-			{/* </Box> */}
-			{/* <Footer /> */}
 		</Box>
 	);
 };
