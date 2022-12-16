@@ -18,3 +18,9 @@
 ### Database
 
 - Local Storage
+
+Strive version 2
+
+user authentication
+database
+create their boards / create the columns
