@@ -13,7 +13,7 @@
 
 ### Deployment
 
-- Vercel
+- Netlify
 
 ### Database
 
