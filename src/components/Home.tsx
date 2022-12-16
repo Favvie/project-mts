@@ -52,7 +52,6 @@ const Home = () => {
 					gap="30px"
 					direction={["column", "row"]}
 					mt={["50px", "135px"]}
-					bgGradient="linear(to-r, green.200, pink.500)"
 				>
 					<VStack spacing="40px" flex="1" w="100%">
 						<Heading as="h1" fontSize={["40px", "55px"]} mt="10px">
