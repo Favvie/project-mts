@@ -68,7 +68,7 @@ const Home = () => {
 							high rises to the home office, the way your team work is unique -
 							accomplish it all with Strive
 						</Text>
-					<Link to="/dnd">
+
 						<Button
 							// bg="none"
 							// color="yellow.300"
@@ -84,10 +84,10 @@ const Home = () => {
 								background: " #FFD282",
 							}}
 							cursor='pointer'
-						>
+						><Link to="/dnd">
 							Get Started
+							</Link>
 						</Button>
-					</Link>
 					</VStack>
 					<Box width={["90%", "50vw"]} position="relative">
 						<Image src={Snippet} />
