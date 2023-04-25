@@ -83,8 +83,9 @@ const Home = () => {
 							_hover={{
 								background: " #FFD282",
 							}}
-						>
+						><Link to="/dnd">
 							Get Started
+							</Link>
 						</Button>
 					</VStack>
 					<Box width={["90%", "50vw"]} position="relative">
